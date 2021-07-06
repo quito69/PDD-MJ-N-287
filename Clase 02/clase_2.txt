@@ -1,0 +1,26 @@
+MODULOS -> import csv
+
+tabla = csv.reader( archivo )
+
+caracteres ','.join
+---------------------------
+Normalizacion de fechas:
+
+from datetime import datetime
+
+entrada -> datetime.strptime( fecha in, formato (ver PDF) )
+salida  -> datetime.strftime
+---------------------------
+TRY/EXCEPT -> esto evita que el prg no salte por error
+
+try
+   <procedimiento>
+except
+   print('no funciona')
+---------------------------
+Tarea
+de los hospitales.csv
+sacar 4 datos
+latitud, longitud, direccion, nombre (del hospital)
+generar salida.csv
+
